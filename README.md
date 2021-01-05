@@ -173,7 +173,7 @@ ariba summary out.summary *.tsv
 
 ## 7. Variant calling
 
-##Snippy:
+### Snippy:
 ```
 conda install –c conda-forge –c bioconda –c defaults snippy
 mkdir snippy
