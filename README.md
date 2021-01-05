@@ -3,8 +3,8 @@
 ## 1. Environment and sample preparation 
 
 ### Conda environment:
-$ conda create –n jguitart python = 3.6.11
-$ source activate jguitart
+        $ conda create –n jguitart python = 3.6.11
+        $ source activate jguitart
 
 ### SRA-toolkit:
 $ conda install –c bioconda sra-tools
