@@ -130,7 +130,7 @@ nohup python prokka_script.py > annotation.log 2> annotation.err &
 ```
 mkdir busco_annotation
 for i in `dir prokka_SRR*/*.faa`; do cp $i busco_annotation/; done
-cd busco_annotation_script.py
+cd busco_annotation
 python busco_annotation_script.py
 
 mkdir busco_summaries
